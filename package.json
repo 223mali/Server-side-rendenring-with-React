@@ -1,0 +1,42 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -w "
+  },
+  "author": "Ernest",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.31.0"
+  }
+}
